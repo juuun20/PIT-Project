@@ -1,0 +1,243 @@
+body{
+	padding: 20px;
+}
+
+.E{
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+.Img{
+	border-radius: 50%;
+	
+}
+
+background{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.background-image{
+	border-radius: 60%;
+	justify-content: center;
+     align-items: center;
+}
+.d1 img{
+	border-radius: 60%;
+	margin: 40px;
+	border: double;
+	border-width: 2px;
+}
+.background{
+	width: 100%;
+	height: 1050px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.d1{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.d1 img{
+	border-radius: 50%;
+	margin: 40px;
+	border: double;
+	border-width: 2px;
+}
+
+h1{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.p1{
+	color: #0b7228;
+	font-family: arial;
+	margin-top: 0;
+	font-style: sans-serif, Arial;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+.p2{
+	color: #0a2d74;
+	font-size: 40px;
+	line-height: 0;
+	font-family: sans-serif, Arial;
+	letter-spacing: 5px;
+	text-shadow: 0px 10px 6px grey;
+	font-weight: bolder;
+	font-size: 50px;
+	line-height: 30px;
+}
+
+.p3{
+	color: #ff5404;
+	font-size: 25px;
+	font-family: sans-serif, Arial;
+	text-shadow: 0 5px 8px grey;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	line-height: 30px;
+}
+
+.p4{
+	color: blue;
+	font-family: calibri;
+	line-height: 0;
+}
+
+.container{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	max-width: 350px;
+	height: 350px;
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 5px;
+	background-color: #c9d6ff;
+	background:linear-gradient(to right,#e2e2e2,#c9d6ff);
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 90px;
+	padding-right: 50px;
+	box-shadow: 20px 20px 20px;
+}
+
+h2{
+	font-family: Times New Roman;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+select{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+select:hover{
+	background-color: white;
+	border-color: black;
+	border-width: 2px;
+}
+input [type=text], #userID{
+	width: 93.25%;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+	background-color: #CBE3FF;
+}
+input [type=password], #password{
+	top: 20px;
+	width: 93.25%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+	display: flex;
+	background-color: #CBE3FF;
+}
+#eyeIcon{
+	float: right;
+	position: relative;
+	width: 20px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	left: -10px;
+	bottom: 40px;
+	cursor: pointer;
+}
+button{
+	margin-top: 20px;
+	margin-left: -2%;
+	background-color: green;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+	position: relative;
+	color: white;
+}
+
+.user1{
+	display: flex;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 15px;
+}
+.department-box{
+	display: flex;
+	position: absolute;
+	float: left;
+	width: 45px;
+	height: 40px;
+	background-color: #D9D9D9;
+	margin-left: -45px;
+}
+.department{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+}
+.user-box{
+	display: flex;
+	position: absolute;
+	float: left;
+	width: 45px;
+	height: 40px;
+	background-color: #D9D9D9;
+	margin-left: -45px;
+}
+.user{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+}
+.key-box{
+	display: flex;
+	position: absolute;
+	float: left;
+	width: 45px;
+	height: 40px;
+	background-color: #D9D9D9;
+	margin-left: -45px;
+}
+.key{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 5px;
+}
