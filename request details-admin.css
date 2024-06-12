@@ -1,0 +1,175 @@
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', arial;
+}
+
+ul{
+  list-style: none;
+  background: #3C61AA;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+
+}
+ul li a{
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+ul li ul.dropdown{
+  display: block;
+}
+ul li ul.dropdown{
+  width: 100%;
+  background: #3C61AA;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  background: #fff;
+  color: #3C61AA;
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+.navbar{
+  background-color: #3C61AA; 
+  font-family: sans-serif; 
+  padding-right: 0; 
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.navdiv{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: lighter;
+  font-weight: 600px;
+  color: white;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  font-size: lighter;
+  font-weight: lighter;
+  margin-right: 0;
+}
+
+.ustp{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: sans-serif, Arial;
+  margin-left: 10px;
+}
+
+.role{
+  display: flex;
+  position: absolute;
+  color: white;
+  font-weight: light;
+  font-size: 18px;
+  font-style: sans-serif, Arial;
+  margin-top: 0px;
+  margin-left: 3px;
+}
+
+.role-box{
+  display: flex;
+  position: absolute;
+  float: left;
+  width: 90px;
+  height: 23px;
+  background-color: black;
+  margin-top: -27.75px;
+  margin-left: 100px;
+}
+
+.container{
+  font-size: 10px;
+  position: relative;
+  margin-top: 30px;
+  border-style: outset;
+  border-width: 0.5px;
+  border-color: black;
+  background-color: #dad8d8;
+  width: 600px;
+  height: 500px;
+}
+
+h1{
+  margin-top: 10px;
+}
+
+.pend-clear{
+  font-size: 15px;
+  margin-top: 250px;
+  margin-right: 300px;
+}
+
+.pending1{
+  margin-right: 0;
+}
+
+.cleared1{
+  margin-right: 0;
+}
+
+.comment{
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+
+.comment{
+  font-family: 'Inter', sans-serif;
+}
+
+.feedback1{
+  margin-right: 200px;
+  margin-bottom: 10px;
+}
+
+.feedback{
+  width: 300px;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+button{
+  background-color: green;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Develop{
+  align-content: center;
+  justify-content: center;
+  color: gray;
+  margin-top: 200px;
+  margin-bottom: 0%;
+}
+
+.MACC{
+  color: rgb(13, 180, 231);
+}
