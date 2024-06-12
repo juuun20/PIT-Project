@@ -1,0 +1,245 @@
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', arial;
+}
+
+ul{
+  list-style: none;
+  background: #3C61AA;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+
+}
+ul li a{
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+ul li ul.dropdown{
+  display: block;
+}
+ul li ul.dropdown{
+  width: 100%;
+  background: #3C61AA;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  background: #fff;
+  color: #3C61AA;
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+.navbar{
+  background-color: #3C61AA; 
+  font-family: sans-serif; 
+  padding-right: 0; 
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.navdiv{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: lighter;
+  font-weight: 600px;
+  color: white;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  font-size: lighter;
+  font-weight: lighter;
+  margin-right: 0;
+}
+
+.ustp{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: sans-serif, Arial;
+  margin-left: 10px;
+}
+
+.role{
+  display: flex;
+  position: absolute;
+  color: white;
+  font-weight: light;
+  font-size: 18px;
+  font-style: sans-serif, Arial;
+  margin-top: 0px;
+  margin-left: 3px;
+}
+
+.role-box{
+  display: flex;
+  position: absolute;
+  float: left;
+  width: 65px;
+  height: 23px;
+  background-color: black;
+  margin-top: -27.75px;
+  margin-left: 100px;
+}
+
+.arrowback{
+  width: 20px;
+}
+
+button{
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 0%;
+  border-color: blue;
+  font-size: 25px;
+  font-weight: 100;
+  background-color: #fff;
+  color: blue;
+}
+
+.semester{
+  float: left;
+  margin-top: 70px;
+  margin-left: -88px;
+  margin-right: 40px;
+  font-family: arial;
+  font-size: 15px;
+  letter-spacing: -1px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-style: outset;
+  border-width: 1px;
+  border-color: black;
+  padding-left: 12px;
+  padding-right: 530px;
+  background: white;
+}
+
+.syear{
+  float: right;
+  margin-top: 70px;
+  margin-left: 0;
+  margin-right: 20px;
+  font-family: Arial;
+  font-size: 15px;
+  letter-spacing: -1px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-style: outset;
+  border-width: 1px;
+  border-color: black;
+  padding-left: 12px;
+  padding-right: 530px;
+  background: white;
+}
+
+.university{
+  border-style: outset;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  color: green;
+  font-family: Arial;
+  font-size: 15px;
+  letter-spacing: -1px;
+  padding: 13px;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.uni:hover{
+  background-color: green;
+  color: white;
+}
+
+.uni:active{
+  background-color: green;
+  color: white;
+}
+
+.usg{
+  float: left;
+  border-style: outset;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  color: green;
+  font-family: Arial;
+  font-size: 15px;
+  letter-spacing: -1px;
+  padding: 13px;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.usg:hover{
+  background-color: green;
+  color: white;
+}
+
+.usg:active{
+  background-color: green;
+  color: white;
+}
+
+table{
+  margin-top: 200px;
+  margin-left: 20px;
+}
+
+tr th{
+  border-style: outset;
+  border-width: 1px;
+  border-color: black;
+  padding: 5px;
+  padding-right: 262px;
+  background-color: #3C61AA;
+  color: white;
+
+}
+
+th{
+  margin: 0;
+}
+
+.Develop{
+  align-content: center;
+  justify-content: center;
+  color: gray;
+  margin-top: 430px;
+  margin-left: 605px;
+  margin-bottom: 0%;
+}
+
+.MACC{
+  color: rgb(13, 180, 231);
+}
