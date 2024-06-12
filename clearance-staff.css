@@ -1,0 +1,176 @@
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', arial;
+}
+
+ul{
+  list-style: none;
+  background: #3C61AA;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+
+}
+ul li a{
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+ul li ul.dropdown{
+  display: block;
+}
+ul li ul.dropdown{
+  width: 100%;
+  background: #3C61AA;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  background: #fff;
+  color: #3C61AA;
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+
+.navbar{
+  background-color: #3C61AA; 
+  font-family: sans-serif; 
+  padding-right: 0; 
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.navdiv{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: lighter;
+  font-weight: 600px;
+  color: white;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  font-size: lighter;
+  font-weight: lighter;
+  margin-right: 0;
+}
+
+.ustp{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: sans-serif, Arial;
+  margin-left: 10px;
+}
+
+.role{
+  display: flex;
+  position: absolute;
+  color: white;
+  font-weight: light;
+  font-size: 18px;
+  font-style: sans-serif, Arial;
+  margin-top: 0px;
+  margin-left: 3px;
+}
+
+.role-box{
+  display: flex;
+  position: absolute;
+  float: left;
+  width: 65px;
+  height: 23px;
+  background-color: black;
+  margin-top: -27.75px;
+  margin-left: 100px;
+}
+
+.view-clearance-content{
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.view-clearance-content2{
+  background-color: rgb(11, 189, 35);
+  padding: 4px;
+  color: white;
+  border-width: thin;
+  border-color: skyblue;
+  cursor: pointer;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  font-weight: 100;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+table{
+  background-color: rgb(207, 203, 203);
+  padding: -1px;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+tr{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+  width: 158px;
+  text-align: start;
+  font-size: small;
+  font-weight: 100;
+  padding: 5px;
+  padding-right: 0;
+  color: white;
+  background-color: #3C61AA;
+}
+
+td{
+  width: 280px;
+  text-align: start;
+  font-size: small;
+  font-weight: 100;
+  padding: 0;
+  padding-right: 0;
+  color: rgb(4, 51, 10);
+  background-color: #fff;
+}
+
+.Develop{
+  align-content: center;
+  justify-content: center;
+  color: gray;
+  margin-top: 430px;
+  margin-left: 605px;
+  margin-bottom: 0%;
+}
+
+.MACC{
+  color: rgb(13, 180, 231);
+}
