@@ -1,0 +1,181 @@
+body{
+	padding: 20px;
+}
+
+.E{
+	background-color: lightgray;
+	padding: 20px;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+.Img{
+	border-radius: 50%;
+	
+}
+
+.background{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.background-image{
+	border-radius: 60%;
+	justify-content: center;
+     align-items: center;
+}
+.d1 img{
+	border-radius: 60%;
+	margin: 40px;
+	border: double;
+	border-width: 2px;
+}
+.background{
+	width: 100%;
+	height: 1000px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.d1{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.d1 img{
+	border-radius: 50%;
+	margin: 40px;
+	border: double;
+	border-width: 2px;
+}
+
+h1{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.p1{
+	color: #0b7228;
+	font-family: arial;
+	margin-top: 0;
+	font-style: sans-serif, Arial;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+.p2{
+	color: #0a2d74;
+	font-size: 40px;
+	line-height: 0;
+	font-family: sans-serif, Arial;
+	letter-spacing: 5px;
+	text-shadow: 0px 10px 6px grey;
+	font-weight: bolder;
+	font-size: 50px;
+	line-height: 30px;
+}
+
+.p3{
+	color: #ff5404;
+	font-size: 25px;
+	font-family: sans-serif, Arial;
+	text-shadow: 0 5px 8px grey;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	line-height: 30px;
+}
+
+.p4{
+	color: blue;
+	font-family: calibri;
+	line-height: 0;
+}
+
+.container{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
+  height: 300px;
+	margin: auto;
+	margin-top: 40px;
+	border-radius: 5px;
+	background-color: #e3e9fc;
+	background:linear-gradient(to right,#c5f1f7,#c9d6ff);
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 90px;
+	padding-right: 90px;
+	box-shadow: 20px 20px 20px;
+	
+}
+
+.p10{
+	font-family: Times New Roman;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+.user1{
+	display: flex;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+button{
+	font-family: "poppins", sans-serif;
+	font-size: 15px;
+	box-shadow: 5px 5px 7px;
+	border-radius: 5px;
+}
+
+.admin{
+	height: 50px;
+	width: 150px;
+	margin-right: 50px;
+	margin-top: 20px;
+  background:linear-gradient(to right,#dee762,#c9d6ff);
+  cursor: pointer;
+}
+.staff{
+	height: 50px;
+	width: 150px;
+	margin-left: 50px;
+	margin-top: 20px;
+  background:linear-gradient(to right,#e4ad48,#c9d6ff);
+  cursor: pointer;
+}
+.faculty{
+	height: 50px;
+	width: 150px;
+	margin-right: 50px;
+	margin-top: 40px;
+  background:linear-gradient(to right,#62b6e7,#c9d6ff);
+  cursor: pointer;
+}
+.student{
+	height: 50px;
+	width: 150px;
+	margin-left: 50px;
+	margin-top: 40px;
+  background:linear-gradient(to right,#48e46a,#c9d6ff);
+  cursor: pointer;
+}
